@@ -1,14 +1,14 @@
 import React from 'react'
 
 
-const WeatherForecast = ({conditions, time, img }) => {
+const WeatherForecast = ({ conditions, time, img }) => {
     return (
-        <div className= "weather">
+        <div className="weather-icons app">
             <img src={img} alt="weather" />
-            <h5 className="weather-conditions">{conditions}</h5>
-            <p className="weather-time">{time}</p>
+            <h3><span>Conditions:</span> {conditions}</h3>
+            <h4><span>Time:</span> {time}</h4>
         </div>
     );
 }
 
-export default WeatherForecast
+export default WeatherForecast 

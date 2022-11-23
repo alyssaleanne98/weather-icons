@@ -1,6 +1,7 @@
 .App {
-    font-family: sans-serif;
+    font-family: "ubuntu";
     text-align: center;
+    background-color: rgb(178, 229, 244);
   }
   
   body {
@@ -19,7 +20,7 @@
   }
   
   section {
-    display:flex;
+    display:block;
   }
   
   section .weather {
