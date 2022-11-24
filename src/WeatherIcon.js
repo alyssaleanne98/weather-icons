@@ -8,4 +8,4 @@ const WeatherIcon = ({img}) => {
 }
 
 
-export default WeatherIcon
+export default WeatherIcon 
